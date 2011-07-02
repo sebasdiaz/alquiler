@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @local.name %>
+</p>
+
+<p>
+  <b>Code:</b>
+  <%= @local.code %>
+</p>
+
+<p>
+  <b>Union:</b>
+  <%= @local.union %>
+</p>
+
+<p>
+  <b>Porcent:</b>
+  <%= @local.porcent %>
+</p>
+
+<p>
+  <b>Expensas:</b>
+  <%= @local.expensas %>
+</p>
+
+<p>
+  <b>Shopping:</b>
+  <%= @local.shopping %>
+</p>
+
+
+<%= link_to 'Edit', edit_local_path(@local) %> |
+<%= link_to 'Back', locals_path %>

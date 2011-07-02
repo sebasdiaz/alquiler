@@ -1,0 +1,45 @@
+<%= form_for(@local) do |f| %>
+  <% if @local.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@local.errors.count, "error") %> prohibited this local from being saved:</h2>
+
+      <ul>
+      <% @local.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :code %><br />
+    <%= f.text_field :code %>
+  </div>
+  <div class="field">
+    <%= f.label :union %><br />
+    <%= f.text_field :union %>
+  </div>
+  <div class="field">
+    <%= f.label :porcent %><br />
+    <%= f.text_field :porcent %>
+  </div>
+  <div class="field">
+    <%= f.label :expensas %><br />
+    <%= f.check_box :expensas %>
+  </div>
+  
+  <div class="field">
+  
+  <%= f.select :shopping_id, options_from_collection_for_select(Shopping.all, :id, :name) %>
+  <%= f.collection_select :shopping_id, Shopping.all, :id, :name, :prompt => true %>
+  
+</div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

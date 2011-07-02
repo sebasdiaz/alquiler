@@ -1,0 +1,34 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  code: MyString
+  union: MyString
+  porcent: 9.99
+  expensas: false
+  shopping: 
+
+two:
+  name: MyString
+  code: MyString
+  union: MyString
+  porcent: 9.99
+  expensas: false
+  shopping: 
+
+# == Schema Information
+# Schema version: 20110629030226
+#
+# Table name: locals
+#
+#  id          :integer         not null, primary key
+#  name        :string(255)
+#  code        :string(255)
+#  union       :string(255)
+#  porcent     :decimal(, )
+#  expensas    :boolean
+#  shopping_id :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+

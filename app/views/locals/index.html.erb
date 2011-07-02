@@ -1,0 +1,33 @@
+<h1>Listing locals</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Code</th>
+    <th>Union</th>
+    <th>Porcent</th>
+    <th>Expensas</th>
+    <th>Shopping</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @locals.each do |local| %>
+  <tr>
+    <td><%= local.name %></td>
+    <td><%= local.code %></td>
+    <td><%= local.union %></td>
+    <td><%= local.porcent %></td>
+    <td><%= local.expensas %></td>
+    <td><%= local.shopping %></td>
+    <td><%= link_to 'Show', local %></td>
+    <td><%= link_to 'Edit', edit_local_path(local) %></td>
+    <td><%= link_to 'Destroy', local, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Local', new_local_path %>

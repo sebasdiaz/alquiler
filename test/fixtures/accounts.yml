@@ -1,0 +1,24 @@
+# == Schema Information
+# Schema version: 20110629194753
+#
+# Table name: accounts
+#
+#  id         :integer         not null, primary key
+#  name       :string(255)
+#  code       :string(255)
+#  dh         :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  code: MyString
+  dh: MyString
+
+two:
+  name: MyString
+  code: MyString
+  dh: MyString
