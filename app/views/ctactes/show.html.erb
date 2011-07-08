@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @ctacte.name %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @ctacte.amount %>
+</p>
+
+<p>
+  <b>Account:</b>
+  <%= @ctacte.account %>
+</p>
+
+<p>
+  <b>Local:</b>
+  <%= @ctacte.local %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @ctacte.date %>
+</p>
+
+
+<%= link_to 'Edit', edit_ctacte_path(@ctacte) %> |
+<%= link_to 'Back', ctactes_path %>

@@ -1,0 +1,31 @@
+<h1>Listing ctactes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Amount</th>
+    <th>Account</th>
+    <th>Local</th>
+    <th>Date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ctactes.each do |ctacte| %>
+  <tr>
+    <td><%= ctacte.name %></td>
+    <td><%= ctacte.amount %></td>
+    <td><%= ctacte.account %></td>
+    <td><%= ctacte.local %></td>
+    <td><%= ctacte.date %></td>
+    <td><%= link_to 'Show', ctacte %></td>
+    <td><%= link_to 'Edit', edit_ctacte_path(ctacte) %></td>
+    <td><%= link_to 'Destroy', ctacte, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Ctacte', new_ctacte_path %>

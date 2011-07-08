@@ -1,0 +1,2 @@
+module CtactesHelper
+end
