@@ -1,7 +1,9 @@
 class Shopping < ActiveRecord::Base
-	def to_s
+  has_many :locals
+
+  def to_s
 	  name
-	end
+  end
 end
 
 # == Schema Information

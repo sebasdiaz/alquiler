@@ -21,13 +21,13 @@
     <td><%= local.porcent %></td>
     <td><%= local.expensas %></td>
     <td><%= local.shopping %></td>
-    <td><%= link_to 'Show', local %></td>
-    <td><%= link_to 'Edit', edit_local_path(local) %></td>
-    <td><%= link_to 'Destroy', local, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Show', [@shopping, local] %></td>
+    <td><%= link_to 'Edit', edit_shopping_local_path(@shopping, local) %></td>
+    <td><%= link_to 'Destroy', [@shopping, local], :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Local', new_local_path %>
+<%= link_to 'New Local', new_shopping_local_path(@shopping) %>

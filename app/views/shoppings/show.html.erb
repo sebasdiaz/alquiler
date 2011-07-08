@@ -1,10 +1,27 @@
 <p id="notice"><%= notice %></p>
-
 <p>
   <b>Name:</b>
   <%= @shopping.name %>
 </p>
-
-
 <%= link_to 'Edit', edit_shopping_path(@shopping) %> |
 <%= link_to 'Back', shoppings_path %>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Code</th>
+    <th>Union</th>
+    <th>Porcent</th>
+    <th>Expensas</th>
+    <th>Shopping</th>
+   </tr>
+<% @shopping.locals.each do |local| %>
+  <tr>
+    <td><%= local.name %></td>
+    <td><%= local.code %></td>
+    <td><%= local.union %></td>
+    <td><%= local.porcent %></td>
+    <td><%= local.expensas %></td>
+    <td><%= local.shopping %></td>
+   </tr>
+<% end %>
+</table>

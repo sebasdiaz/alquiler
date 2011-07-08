@@ -2,5 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @local %> |
-<%= link_to 'Back', locals_path %>
+<%= link_to 'Show', [@shopping, @local] %> |
+<%= link_to 'Back', shopping_locals_path(@shopping) %>

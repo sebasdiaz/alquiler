@@ -1,4 +1,4 @@
-<%= form_for(@local) do |f| %>
+<%= form_for([@shopping, @local]) do |f| %>
   <% if @local.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@local.errors.count, "error") %> prohibited this local from being saved:</h2>
@@ -31,14 +31,6 @@
     <%= f.label :expensas %><br />
     <%= f.check_box :expensas %>
   </div>
-  
-  <div class="field">
-  
-  <%= f.select :shopping_id, options_from_collection_for_select(Shopping.all, :id, :name) %>
-  <%= f.collection_select :shopping_id, Shopping.all, :id, :name, :prompt => true %>
-  
-</div>
-  
   <div class="actions">
     <%= f.submit %>
   </div>
