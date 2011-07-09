@@ -1,12 +1,11 @@
 Alquiler::Application.routes.draw do
-  resources :ctactes
 
   resources :accounts
 
-
-
-  resources :shoppings  do
-    resources :locals
+  resources :shoppings do
+    resources :locals do
+      resources :ctactes
+    end
   end
 
   # The priority is based upon order of creation:

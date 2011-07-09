@@ -45,8 +45,8 @@ class LocalsController < ApplicationController
 
     respond_to do |format|
       if @local.save
-        format.html { redirect_to([@shopping, @local], :notice => 'Local was successfully created.') }
-        format.xml  { render :xml => @local, :status => :created, :location => [@shopping, @local] }
+        format.html { redirect_to([@shopping], :notice => 'Local was successfully created.') }
+        format.xml  { render :xml => @local, :status => :created, :location => [@shopping] }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @local.errors, :status => :unprocessable_entity }
@@ -60,7 +60,7 @@ class LocalsController < ApplicationController
 
     respond_to do |format|
       if @local.update_attributes(params[:local])
-        format.html { redirect_to([@shopping, @local], :notice => 'Local was successfully updated.') }
+        format.html { redirect_to(@shopping, :notice => 'Local was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

@@ -1,5 +1,7 @@
 class Local < ActiveRecord::Base
-  belongs_to :shopping  
+  belongs_to :shopping
+  has_many :ctactes
+
 	def to_s
 		  name
 	end

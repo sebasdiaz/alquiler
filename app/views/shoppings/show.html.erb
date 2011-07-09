@@ -5,6 +5,7 @@
 </p>
 <%= link_to 'Edit', edit_shopping_path(@shopping) %> |
 <%= link_to 'Back', shoppings_path %>
+<br/>
 <table>
   <tr>
     <th>Name</th>
@@ -12,7 +13,9 @@
     <th>Union</th>
     <th>Porcent</th>
     <th>Expensas</th>
-    <th>Shopping</th>
+    <th></th>
+    <th></th>
+    <th></th>
    </tr>
 <% @shopping.locals.each do |local| %>
   <tr>
@@ -21,7 +24,13 @@
     <td><%= local.union %></td>
     <td><%= local.porcent %></td>
     <td><%= local.expensas %></td>
-    <td><%= local.shopping %></td>
+    <td><%= link_to 'Show', [@shopping, local] %></td>
+    <td><%= link_to 'Edit', edit_shopping_local_path(@shopping, local) %></td>
+    <td><%= link_to 'Destroy', [@shopping, local], :confirm => 'Are you sure?', :method => :delete %></td>
    </tr>
 <% end %>
 </table>
+<br/>
+<div>
+  <%= link_to 'New Local', new_shopping_local_path(@shopping) %>
+</div>
