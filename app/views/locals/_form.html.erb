@@ -1,4 +1,17 @@
 <%= form_for([@shopping, @local]) do |f| %>
+
+<div id="logo">
+    <h1><a href="#">Administracion de Alquileres</a></h1>
+    <p><em>by Sebastian E. Diaz - <a href="http://www.ap-sys.com/">APSystems</a></em></p>
+</div>
+<div id="header">
+    <div id="menu">
+        <ul>
+          <li></li>
+        </ul>
+    </div>
+</div>
+
   <% if @local.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@local.errors.count, "error") %> prohibited this local from being saved:</h2>
@@ -11,27 +24,33 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :code %><br />
-    <%= f.text_field :code %>
-  </div>
-  <div class="field">
-    <%= f.label :union %><br />
-    <%= f.text_field :union %>
-  </div>
-  <div class="field">
-    <%= f.label :porcent %><br />
-    <%= f.text_field :porcent %>
-  </div>
-  <div class="field">
-    <%= f.label :expensas %><br />
-    <%= f.check_box :expensas %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<div id="page">
+    <div id="content">
+        <div id="post">
+            <div class="field">
+            <%= f.label :name %><br />
+            <%= f.text_field :name %>
+            </div>
+            <div class="field">
+            <%= f.label :code %><br />
+            <%= f.text_field :code %>
+            </div>
+            <div class="field">
+            <%= f.label :union %><br />
+            <%= f.text_field :union %>
+            </div>
+            <div class="field">
+            <%= f.label :porcent %><br />
+            <%= f.text_field :porcent %>
+            </div>
+            <div class="field">
+            <%= f.label :expensas %><br />
+            <%= f.check_box :expensas %>
+            </div>
+            <div class="actions">
+            <%= f.submit %>
+        </div>
+    </div>
+</div>
+
 <% end %>

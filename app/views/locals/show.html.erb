@@ -1,34 +1,45 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Name:</b>
-  <%= @local.name %>
-</p>
-
-<p>
-  <b>Code:</b>
-  <%= @local.code %>
-</p>
-
-<p>
-  <b>Union:</b>
-  <%= @local.union %>
-</p>
-
-<p>
-  <b>Porcent:</b>
-  <%= @local.porcent %>
-</p>
-
-<p>
-  <b>Expensas:</b>
-  <%= @local.expensas %>
-</p>
-
-<p>
-  <b>Shopping:</b>
-  <%= @local.shopping %>
-</p>
-
-<%= link_to 'Edit', edit_shopping_local_path(@shopping) %> |
-<%= link_to 'Back', shopping_path(@shopping) %>
+<div id="logo">
+    <h1><a href="#">Administracion de Alquileres</a></h1>
+    <p><em>by Sebastian E. Diaz - <a href="http://www.ap-sys.com/">APSystems</a></em></p>
+</div>
+<div id="header">
+  <div id="menu">
+        <ul>
+          <li><%= link_to 'Volver', shopping_path(@shopping) %></li>
+        </ul>
+    </div>
+</div>
+<div id="page">
+    <div id="content">
+        <div class="post">
+            <h2 class="title"><a href="#"><%=@shopping.name %> - <%= @local.name %></a></h2>
+            <p class="meta"><%= link_to 'Editar local', edit_shopping_local_path(@shopping) %></p>
+            <p id="notice"><%= notice %></p>
+        </div>
+    </div>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <h2><%= @local.name %></h2>
+          <table style="width:100%">
+            <tr>
+                <td style="width:40%"><b>Codigo:</b></td>
+                <td><%= @local.code %></td>
+            </tr>
+            <tr>
+                <td style="width:40%"><b>Union:</b></td>
+                <td><%= @local.union %></td>
+            </tr>
+            <tr>
+                <td style="width:40%"><b>Porcentaje:</b></td>
+                <td><%= @local.porcent %></td>
+            </tr>
+            <tr>
+                <td style="width:40%"><b>Paga Expensas:</b></td>
+                <td><%= check_box_tag("expensas",@local.expensas, @local.expensas) %>  </td>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+</div>

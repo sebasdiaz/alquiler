@@ -75,7 +75,7 @@ class LocalsController < ApplicationController
     @local.destroy
 
     respond_to do |format|
-      format.html { redirect_to(shopping_locals_url(@shopping)) }
+      format.html { redirect_to(shopping_url(@shopping)) }
       format.xml  { head :ok }
     end
   end

@@ -1,8 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2dfb110-bc95-4e46-8929-07e654e80eef" name="Default" comment="">
+    <list default="true" id="d2dfb110-bc95-4e46-8929-07e654e80eef" name="Default" comment="Commit 08-jul-2011">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/cache/bcrypt-ruby-2.1.4-x86-mingw32.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/cache/devise-1.4.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/cache/orm_adapter-0.0.5.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/cache/warden-1.0.4.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/.rspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/CHANGELOG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/jruby/bcrypt_jruby/BCrypt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/spec/TestBCrypt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/MIT-LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/Gemfile.lock.development" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/README.textile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/TODO.textile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/warden-1.0.0.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/warden-1.0.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/img07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20110709155613_devise_create_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/bcrypt-ruby.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/bcrypt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/bcrypt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/bcrypt_ext.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/blf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/blowfish.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/ext/mri/extconf.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/lib/bcrypt.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/lib/bcrypt_ext.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/spec/bcrypt/engine_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/spec/bcrypt/password_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/bcrypt-ruby-2.1.4-x86-mingw32/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/CHANGELOG.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/confirmations_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/omniauth_callbacks_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/passwords_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/registrations_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/sessions_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/controllers/devise/unlocks_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/helpers/devise_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/mailers/devise/mailer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/confirmations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/mailer/confirmation_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/mailer/reset_password_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/mailer/unlock_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/passwords/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/registrations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/registrations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/shared/_links.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/app/views/devise/unlocks/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/devise.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/internal_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/rememberable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/scoped_views.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/shared_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/controllers/url_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/email.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/authlogic_sha512.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/clearance_sha1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/restful_authentication_sha1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/sha1.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/encryptors/sha512.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/failure_app.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/hooks/activatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/hooks/forgetable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/hooks/rememberable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/hooks/timeoutable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/hooks/trackable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/mailers/helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/mapping.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/confirmable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/database_authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/encryptable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/lockable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/omniauthable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/recoverable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/registerable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/rememberable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/serializable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/timeoutable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/token_authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/trackable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/models/validatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/modules.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/omniauth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/omniauth/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/omniauth/url_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/orm/active_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/orm/mongoid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/path_checker.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/rails.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/rails/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/rails/warden_compat.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/strategies/authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/strategies/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/strategies/database_authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/strategies/rememberable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/strategies/token_authenticatable.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/test_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/devise/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/active_record/devise_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/active_record/templates/migration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/devise/devise_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/devise/install_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/devise/orm_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/devise/views_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/mongoid/devise_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/confirmations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/passwords/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/registrations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/registrations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/lib/generators/templates/simple_form_for/unlocks/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/controllers/helpers_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/controllers/internal_helpers_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/controllers/sessions_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/controllers/url_helpers_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/devise_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/encryptors_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/failure_app_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/generators/active_record_generator_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/generators/devise_generator_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/generators/install_generator_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/generators/mongoid_generator_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/generators/views_generator_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/helpers/devise_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/indifferent_hash.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/confirmable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/database_authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/http_authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/lockable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/omniauthable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/recoverable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/registerable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/rememberable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/timeoutable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/token_authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/integration/trackable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/mailers/confirmation_instructions_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/mailers/reset_password_instructions_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/mailers/unlock_instructions_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/mapping_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/confirmable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/database_authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/encryptable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/lockable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/recoverable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/rememberable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/serializable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/timeoutable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/token_authenticatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/trackable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models/validatable_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/models_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/omniauth/url_helpers_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/orm/active_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/orm/mongoid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/active_record/admin.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/active_record/shim.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/active_record/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/admins/sessions_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/admins_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/home_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/publisher/registrations_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/publisher/sessions_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/users/omniauth_callbacks_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/controllers/users_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/mongoid/admin.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/mongoid/shim.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/mongoid/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/admins/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/admins/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/home/admin_dashboard.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/home/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/home/join.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/home/private.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/home/user_dashboard.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/users/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/users/mailer/confirmation_instructions.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/app/views/users/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/initializers/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/initializers/secret_token.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/db/migrate/20100401102949_create_tables.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/lib/shared_admin.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/lib/shared_user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/rails_app/script/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/routes_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/schema_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/support/assertions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/support/helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/support/integration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/support/locale/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/support/webrat/integrations/rails.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/devise-1.4.2/test/test_helpers_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/History.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/adapters/active_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/adapters/data_mapper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/adapters/mongo_mapper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/adapters/mongoid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/to_adapter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/lib/orm_adapter/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/orm_adapter.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/adapters/active_record_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/adapters/data_mapper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/adapters/mongo_mapper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/adapters/mongoid_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/base_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter/example_app_shared.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/orm_adapter_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/orm_adapter-0.0.5/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/History.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/errors.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/hooks.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/manager.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/mixins/common.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/proxy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/session_serializer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/strategies.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/strategies/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/test/helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/test/warden_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/lib/warden/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/request_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/failz.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/invalid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/pass.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/pass_with_message.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/password.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/helpers/strategies/single.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/authenticated_data_store_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/config_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/errors_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/hooks_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/manager_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/proxy_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/session_serializer_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/strategies/base_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/strategies_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/test/helpers_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/spec/warden/test/test_mode_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/gems/warden-1.0.4/warden.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/specifications/bcrypt-ruby-2.1.4-x86-mingw32.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/specifications/devise-1.4.2.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/specifications/orm_adapter-0.0.5.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heroku/ruby/1.9.1/specifications/warden-1.0.4.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/user_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/alquiler.iml" afterPath="$PROJECT_DIR$/.idea/alquiler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/locals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/locals_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locals/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/locals/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locals/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/locals/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locals/new.html.erb" afterPath="$PROJECT_DIR$/app/views/locals/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locals/show.html.erb" afterPath="$PROJECT_DIR$/app/views/locals/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shoppings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/shoppings/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shoppings/show.html.erb" afterPath="$PROJECT_DIR$/app/views/shoppings/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scaffold.css" afterPath="$PROJECT_DIR$/public/stylesheets/scaffold.css" />
     </list>
     <ignored path="alquiler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,64 +362,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shoppings/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoppings_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/shoppings_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locals/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="32" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locals/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="locals_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/locals_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locals/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+            <state line="39" column="85" selection-start="1382" selection-end="1382" vertical-scroll-proportion="2.4238095">
               <folding />
             </state>
           </provider>
@@ -92,25 +374,43 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locals/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+            <state line="56" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-18.23077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/shopping.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shoppings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="28" column="44" selection-start="705" selection-end="705" vertical-scroll-proportion="-18.307692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/local.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/locals/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="1.092545">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scaffold.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="323" column="12" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/locals/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,17 +430,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/shopping.rb" />
-        <option value="$PROJECT_DIR$/app/views/locals/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/locals/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/accounts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/locals_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/locals/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/locals/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/locals/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shoppings/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/local.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/views/shoppings/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/locals_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/locals/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/locals/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/locals/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shoppings/show.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/scaffold.css" />
+        <option value="$PROJECT_DIR$/app/views/locals/show.html.erb" />
       </list>
     </option>
   </component>
@@ -177,6 +482,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,20 +499,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="alquiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alquiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alquiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,10 +577,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,11 +591,13 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -485,17 +776,37 @@
       </GitHub>
     </servers>
   </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5656878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33657745" sideWeight="0.6707882" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33576643" sideWeight="0.43431222" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21174653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,7 +834,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 08-jul-2011" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 10-jul-2011" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -537,83 +848,110 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Commit 08-jul-2011" />
+    <MESSAGE value="Commit 10-jul-2011" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/accounts/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/script/rails">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="105" selection-start="674" selection-end="674" vertical-scroll-proportion="-16.346153" />
+        <state line="5" column="9" selection-start="283" selection-end="283" vertical-scroll-proportion="0.13709678" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locals/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/images/img01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locals/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+        <state line="18" column="18" selection-start="433" selection-end="440" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110629020840_create_shoppings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="456" column="23" selection-start="6331" selection-end="6331" vertical-scroll-proportion="-5.52">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locals/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locals/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locals/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shoppings/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="705" selection-end="705" vertical-scroll-proportion="-18.307692">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locals_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locals/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+        <state line="70" column="34" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.33887044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locals/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+        <state line="22" column="23" selection-start="540" selection-end="847" vertical-scroll-proportion="0.4392361">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shoppings/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.8846154">
+        <state line="7" column="42" selection-start="220" selection-end="220" vertical-scroll-proportion="0.21136767">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/shoppings_controller.rb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="323" column="12" selection-start="4175" selection-end="4175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/shopping.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/locals/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" />
+        <state line="56" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-18.23077">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/local.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/locals/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="1.092545">
+        <state line="39" column="85" selection-start="1382" selection-end="1382" vertical-scroll-proportion="2.4238095">
           <folding />
         </state>
       </provider>

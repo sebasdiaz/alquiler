@@ -1,23 +1,45 @@
-<h1>Listing shoppings</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @shoppings.each do |shopping| %>
-  <tr>
-    <td><%= shopping.name %></td>
-    <td><%= link_to 'Show', shopping %></td>
-    <td><%= link_to 'Edit', edit_shopping_path(shopping) %></td>
-    <td><%= link_to 'Destroy', shopping, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+<div id="logo">
+    <h1><a href="#">Administracion de Alquileres</a></h1>
+    <p><em>by Sebastian E. Diaz - <a href="http://www.ap-sys.com/">APSystems</a></em></p>
+</div>
+<div id="header">
+    <div id="menu">
+        <ul>
+          <li><%= link_to 'Nueva galeria', new_shopping_path %></li>
+        </ul>
+    </div>
+</div>
 
-<br />
+<div id="page">
+<div id="content">
+  <div class="post">
+    <h2 class="title"><a href="#">Listado de galerias comerciales</a></h2>
+    <p class="meta"></p>
+    <div class="entry">
+        <table style="width:100%" >
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
 
-<%= link_to 'New Shopping', new_shopping_path %>
+        <% @shoppings.each do |shopping| %>
+          <tr>
+            <td style="font-weight:bold;"><%= shopping.name %></td>
+            <td><%= link_to 'Ver', shopping %></td>
+            <td><%= link_to 'Editar', edit_shopping_path(shopping) %></td>
+            <td><%= link_to 'Eliminar', shopping, :confirm => 'Esta seguro de eliminar la galeria: ' + shopping.name, :method => :delete %></td>
+          </tr>
+        <% end %>
+    </div>
+    </table>
+  <div>
+  </div>
+</div>
+
+  <br />
+
+
