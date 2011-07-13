@@ -16,6 +16,7 @@ class LocalsController < ApplicationController
   # GET /locals/1
   # GET /locals/1.xml
   def show
+    @local = @shopping.locals.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -60,7 +61,7 @@ class LocalsController < ApplicationController
 
     respond_to do |format|
       if @local.update_attributes(params[:local])
-        format.html { redirect_to(@shopping, :notice => 'Local was successfully updated.') }
+        format.html { redirect_to(@local, :notice => 'Local was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -79,7 +80,6 @@ class LocalsController < ApplicationController
       format.xml  { head :ok }
     end
   end
-
 
   protected
 

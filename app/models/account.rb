@@ -12,4 +12,8 @@
 #
 
 class Account < ActiveRecord::Base
+  has_many :ctactes
+   def to_s
+	  name
+  end
 end

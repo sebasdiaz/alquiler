@@ -15,7 +15,34 @@
             <h2 class="title"><a href="#"><%=@shopping.name %> - <%= @local.name %></a></h2>
             <p class="meta"><%= link_to 'Editar local', edit_shopping_local_path(@shopping) %></p>
             <p id="notice"><%= notice %></p>
+            <table width="100%" >
+            <tr>
+                <th>Fecha</th>
+                <th>Detalle</th>
+                <th>Movimiento</th>
+                <th>Importe</th>
+                <th></th>
+            </tr>
+            <% @local.ctactes.all.each do |ctacte| %>
+                <tr>
+                    <td><%= ctacte.date %></td>
+                    <td><%= ctacte.name %></td>
+                    <td><%= ctacte.account %></td>
+                    <td><%= ctacte.amount %></td>
+                    <td><%= link_to 'Eliminar', [@shopping, @local, ctacte], :confirm => 'Esta seguro de eliminar el moviento: ' + ctacte.name, :method => :delete %></td>
+                </tr>
+            <% end %>
+            </table>
+          <br/>
+        <p class="meta"><%= link_to 'Nuevo Movimiento', new_shopping_local_ctacte_path(@shopping,@local) %></p>
         </div>
+    </div>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <h2>saldo: <%= Ctacte.sum('amount') %></h2>
+        </li>
+      </ul>
     </div>
     <div id="sidebar">
       <ul>
