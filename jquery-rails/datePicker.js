@@ -7,7 +7,6 @@
  **/
 
 (function($){
-    
 	$.fn.extend({
 /**
  * Render a calendar table into any matched elements.

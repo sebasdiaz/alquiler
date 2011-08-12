@@ -1,4 +1,24 @@
+<head>
+          <script>
+             $( ".datepicker" ).datepicker({
+              changeMonth: true,
+              changeYear: true
+              });
+          </script>
+
+  <style type="text/css">
+            .field_periodo{
+              float:left;
+              width:33%;
+              }
+            .actions{
+              clear:both;
+              }
+          </style>
+    </head>
+
 <%= form_for([@shopping, @local, @ctacte]) do |f| %>
+
 <div id="logo">
     <h1><a href="#">Administracion de Alquileres</a></h1>
     <p><em>by Sebastian E. Diaz - <a href="http://www.ap-sys.com/">APSystems</a></em></p>
@@ -35,12 +55,12 @@
                 Movimiento:<br />
                 <%= f.collection_select :account_id, Account.all, :id, :name, :prompt => true %>
             </div>
-            <div class="field">
+
                 Fecha:<br />
-                <%= f.date_select :date %>
-            </div>
-            <div id="date-pick" class="field">
-                Monto:<br/>
+                <%= f.text_field(:date, :class => "datepicker") %>
+
+          <div>Monto:<br/></div>
+            <div class="field">
                 <%= f.text_field :amount %>
             </div>
             <br/>
@@ -50,13 +70,4 @@
         </div>
     </div>
 </div>
-
-<script type="text/javascript" src="../jquery-rails/datePicker.js"></script>
-<script type="text/javascript ">
-    $(function()
-    {
-        $('.date-pick').datePicker().val(new Date().asString()).trigger('change');
-    });
-</script>
-
 <% end %>

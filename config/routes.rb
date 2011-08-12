@@ -1,5 +1,11 @@
 Alquiler::Application.routes.draw do
 
+  resources :expendeds do
+    resources :expended_details
+  end
+
+  resources :type_expendeds
+
   devise_for :users
 
   #devise_for :users, :path => "usuarios", :path_names => { :sign_in => 'login', :sign_out => 'logout', :password => 'secret', :confirmation => 'verification', :unlock => 'unblock', :registration => 'register', :sign_up => 'cmon_let_me_in' }
